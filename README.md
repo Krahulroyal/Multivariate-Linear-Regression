@@ -18,20 +18,21 @@ regression=linear_model LinearRegression) regression.fit(x,y)
 ## Program:
 ```
 import pandas as pd from sklearn import linear_model df=pd. read_csv("car.csv")
-x=df|[ 'Volume', 'Weight ']]
-y=df[ 'CO2']
-regression=linear _model. LinearRegression()
-regression. fit(x,y).
-print ("Coefficent", regression. coef_)
-print ("Intercept"
-', regression. intercept_)
--print ("CO2 required is", regression predict(L[3300,1300]1))
-
+df. info()
+df. head()
+df.tailo
+x=df[[ 'Weight', 'Volume' ]]
+y=df ['CO2']|
+regr-linear_model. LinearRegression()
+regr. fit(x,y)
+print('Coeffients:',regr.coef_)
+print ('Intercept:' ,regr.intercept_)
+predictedC02=regr-predict([[3300,1300]])
+print( 'Predicted CO2 for the corresponding weight and volume', predictedC02)
 ```
 ## Output:
-
 ### Insert your output
-
+![alt text](<Screenshot 2025-01-03 160625-1.png>)
 <br>
 
 ## Result
